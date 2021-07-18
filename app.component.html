@@ -1,0 +1,28 @@
+<div class="container-fluid">
+  <marquee width="100%" direction="left" height="35px" class="slide">
+    <h5 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; padding-top: 10px;"> 🍽️  INDIAN SPICE RESTAURANT  🍽️  INDIAN SPICE RESTAURANT  🍽️  INDIAN SPICE RESTAURANT  🍽️  INDIAN SPICE RESTAURANT  🍽️  INDIAN SPICE RESTAURANT  🍽️  </h5>
+</marquee>
+<div class="container-fluid">
+<div class="row">
+  <div class="col-lg-3 header">
+    <h2 style="font-family: Bold; padding-left: 50px;"><img [src]="url1" style="height: 70px;">INDIAN SPICE</h2>
+  </div>
+<div class="col-lg-9 header1">
+  <app-header></app-header>
+  <ul>
+    <li><a routerLink="home">Home</a></li>
+    <li><a routerLink="aboutus">About us</a></li>
+    <li><a routerLink="menu">Menu</a></li>
+    <li><a routerLink="orderonline">Order Online</a></li>
+    <li><a routerLink="contactus">Contact Us</a></li>
+  </ul>
+</div>
+</div>
+<div class="row">
+  <div class="col-lg-12">
+    <app-article></app-article>
+  <router-outlet></router-outlet>
+</div>
+</div>
+</div>
+</div>

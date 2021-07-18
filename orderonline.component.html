@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+</head>
+<body>
+ 
+<h1 style="text-align: center; padding-bottom: 30px;">Order Online</h1>
+<div class="bg-img">
+  <form action="/action_page.php" method="POST" class="container">
+
+    <label for="name"><b>Full name</b></label>
+    <input type="text" placeholder="Enter Full Name" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="address"><b>Address</b></label>
+    <input type="text" placeholder="Enter Address" name="address" required>
+
+    <label for="number"><b>Phone Number</b></label>
+    <input type="text" placeholder="Enter Phone Number" name="number" required>
+
+    <label for="food"><b>Choose food :</b></label> &nbsp;
+    <select id="food" name="food">
+
+        <option value="dosa"></option>
+        <option value="dosa">Dosa</option>
+        <option value="idli">Idli</option>
+        <option value="vada">Vada</option>
+        <option value="upma">Upma</option>
+        <option value="poori">Poori</option>
+        <option value="bonda">Bonda</option>
+        <option value="pongal">Pongal</option>
+        <option value="chapati">Chapati</option>
+        <option value="sambaridli">Sambar Idli</option>
+        <option value="venpongal">Ven Pongal</option>
+        <option value="kesaribath">Kesaribath</option>
+        <option value="tigerrice">Tiger Rice(Pulihora)</option>
+        <option value="rajmachalwa">Rajma Chalwa</option>
+        <option value="vegbiryani">Veg Biryani</option>
+        <option value="vegmeal">Veg Meal(Full meals)</option>
+        <option value="chickenbiryani">Chicken Biryani</option>
+        <option value="chickencurry">Chicken Curry</option>
+        <option value="chickenfry">Chicken Fry</option>
+        <option value="chicken65">Chicken65</option>
+        <option value="chickenkabab">Chicken Kabab</option>
+        <option value="countrychicken">Country Chicken</option>
+        <option value="muttonbiryani">Mutton Biryani</option>
+        <option value="muttoncurry">Mutton Curry</option>
+        <option value="muttonfry">Mutton Fry</option>
+        <option value="fishcurry">Fish curry</option>
+        <option value="fishfry">Fish Fry</option>
+        <option value="prawncurry">Prawn Curry</option>
+        <option value="prawnfry">Prawn Fry</option>
+        <option value="curdrice">Curd Rice</option>
+        <option value="lassi">Lassi</option>
+        <option value="buttermilk">Buttermilk</option>
+        <option value="decadent">Decadent Dessert</option>
+        <option value="delightful">Delightful Dessert</option>
+        <option value="redvelvet">Red Velvet Dessert</option>
+        <option value="frozenbrownie">Frozen Brownie Dessert</option>
+        <option value="darkforest">Dark Forest Icecream</option>
+        <option value="blackcurrant">Black Currant Icecream</option>
+        <option value="chocolate">Chocolate Icecream</option>
+        <option value="strawberry">Strawberry Icecream</option>
+        <option value="almondmilk">Almond Milk</option>
+        <option value="orangejuice">Orange Juice</option>
+        <option value="grapejuice">Grape Juice</option>
+        <option value="mangojuice">Mango Juice</option>
+        <option value="sweetpaan">Sweet Paan</option>
+    </select>
+<br><br>
+
+<label for="quantity"><b>Food Quantity</b></label>
+    <input type="text" placeholder="Enter Food Quantity" name="quantity" required>
+
+    <button class="btn" type="button" (click)='callfun()' >Submit</button>
+
+  </form>
+</div>
+<br>
+
+ 
+</body>
+</html>
